@@ -3,3 +3,23 @@
 * {
   font-family: 'Balsamiq Sans';
 }
+
+*,
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+#calculator-container {
+  border: solid black 1px;
+  width: 400px;
+  height: 600px;
+}
